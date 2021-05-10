@@ -1,0 +1,103 @@
+.navbar a{
+}
+
+
+.navbar a:hover {
+
+
+  color: blue !important;
+  text-decoration: underline;
+
+
+}
+
+
+
+
+ul.ul-edu li:nth-child(1)::before {
+    content: '';
+    position: absolute;
+    height: 1.5em;
+    width: 1.5em;
+    background-image: url(/img/nyu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -2.5em;
+    margin-top: 0.25em;
+}
+
+ul.ul-edu li:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    height: 1.5em;
+    width: 1.5em;
+    background-image: url(/img/ru.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -2.5em;
+    margin-top: 0.25em;
+}
+
+
+
+// hide defeault education icon
+.fa, .fa-graduation-cap {
+    /* font-weight: 900; */
+    color: rgba(0, 0, 0, 0) !important;
+}
+
+.featurette {
+
+    text-align: left !important;
+   
+    
+}
+
+
+.container {
+
+    text-align: left !important;
+   
+    
+}
+
+
+
+
+
+ .navbar {
+  height: 70px;
+  background: $sta-menu-primary;
+/* this is the part that takes out the shadow & the only edit */
+  box-shadow: none;  
+  font-size: 18px;
+  font-weight: 900 !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  padding: 0 1rem;
+  }
+
+
+
+
+
+.home-section:first-of-type {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.wg-hero {
+    padding: 1em 0;
+    clear: both;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: intro 0.3s both;
+    animation-delay: 0s;
+    animation-delay: 0.25s;
+}
